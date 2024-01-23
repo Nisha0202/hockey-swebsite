@@ -37,10 +37,10 @@
 
   <div class="container">
     <!-- navbar -->
-    <div class="navbar bg-base-100 flex justify-between">
+    <div class="navbar bg-base-100 flex justify-between p-0 m-0">
       <div class="navbar-start">
         <div class="dropdown lg:hidden">
-          <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+          <div tabindex="0" role="button" class="ps-0 pr-3">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ms-0" fill="none" viewBox="0 0 24 24"
               stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
@@ -154,7 +154,7 @@
         </figure>
         <div class="card-body items-center text-center">
           <h2 class="card-title">Prayer Facility</h2>
-          <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+          <p>Amet consectetur. Condimentum dignissim adipiscing.</p>
         </div>
       </div>
       <!-- 2 -->
@@ -211,7 +211,7 @@
         <figure class="w-full"><img src="./Images/2.png" alt="img1" class="w-full object-cover" /></figure>
         <div class="absolute lg:bottom-3 lg:left-4 text-white p-4 z-10">
           <h2 class="card-title">Junior Program</h2>
-          <p class="overflow-hidden h-32 py-4 lg:overflow-visible lg:py-6">Dolor sit amet consectetur. Ut urna diam quis
+          <p class="overflow-y-scroll h-32 py-4 lg:overflow-visible lg:py-6">Dolor sit amet consectetur. Ut urna diam quis
             sagittis. Elit elit
             enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
           <div class="pt-3 lg:pt-4">
@@ -223,7 +223,7 @@
         <figure class="w-full"><img src="./Images/3.png" alt="img1" class="w-full object-cover" /></figure>
         <div class="absolute lg:bottom-3 lg:left-4 text-white p-4 z-10">
           <h2 class="card-title">Teenager Program</h2>
-          <p class="overflow-hidden h-32 py-4 lg:overflow-visible lg:py-6">Dolor sit amet consectetur. Ut urna diam quis
+          <p class="overflow-y-scroll h-32 py-4 lg:overflow-visible lg:py-6">Dolor sit amet consectetur. Ut urna diam quis
             sagittis. Elit elit
             enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
           <div class="pt-3 lg:pt-4">
@@ -235,13 +235,12 @@
     <!-- row1-ends -->
 
     <!-- row2 -->
-
     <div class="row2 my-4 lg:my-8">
       <div class="card relative w-full h-64 lg:h-full bg-base-100 shadow-xl image-full z-0">
         <figure class="w-full"><img src="./Images/4.png" alt="img1" class="w-full object-cover" /></figure>
         <div class="absolute lg:w-[520px] lg:bottom-3 lg:left-4 text-white p-4 z-10">
           <h2 class="card-title">Professional Program</h2>
-          <p class="overflow-hidden h-32 py-4 lg:overflow-visible lg:py-6">Dolor sit amet consectetur. Ut urna diam quis
+          <p class="overflow-y-scroll h-32 py-4 lg:overflow-visible lg:py-6">Dolor sit amet consectetur. Ut urna diam quis
             sagittis. Elit elit
             enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
           <div class="pt-3 lg:pt-4">
@@ -505,30 +504,30 @@
 
 
       <div class="form lg:w-3/5">
-        <div class="r1 flex flex-col lg:flex-row lg:justify-between gap-2 lg:gap-6 lg:mt-4">
-          <label class="form-control w-full">
+        <div class="r1 flex flex-col lg:flex-row lg:justify-between gap-2 lg:gap-6">
+          <label class="form-control w-full mt-4">
             <div class="label">
               <span class="label-text text-xl font-bold">Your Name</span>
             </div>
             <input type="text" placeholder="Enter your full name" class="input input-bordered w-full" />
           </label>
 
-          <label class="form-control w-full">
+          <label class="form-control w-full mt-4">
             <div class="label">
               <span class="label-text text-xl font-bold">Your Email</span>
             </div>
             <input type="text" placeholder="Enter your email" class="input input-bordered w-full" />
           </label>
         </div>
-        <div class="r2 flex flex-col lg:flex-row lg:justify-between gap-2 lg:gap-6 lg:mt-4">
-          <label class="form-control w-full">
+        <div class="r2 flex flex-col lg:flex-row lg:justify-between gap-2 lg:gap-6">
+          <label class="form-control w-full mt-4">
             <div class="label">
               <span class="label-text text-xl font-bold">Subject</span>
             </div>
             <input type="text" placeholder="Enter your subject" class="input input-bordered w-full" />
           </label>
 
-          <label class="form-control w-full">
+          <label class="form-control w-full mt-4">
             <div class="label">
               <span class="label-text text-xl font-bold">Phone Number</span>
             </div>
@@ -536,9 +535,9 @@
           </label>
         </div>
 
-        <div class="r3 lg:mt-4">
+        <div class="r3">
           <label class="form-control">
-            <div class="label">
+            <div class="label mt-4">
               <span class="label-text text-xl font-bold">Message</span>
             </div>
             <textarea class="textarea textarea-bordered h-52 lg:h-96 w-full" placeholder="Your Message"></textarea>
@@ -560,7 +559,7 @@
     <!-- socials -->
     <div class="card w-full bg-gray-300 py-6 lg:py-12 mb-4 lg:mb-8 flex flex-col items-center">
       <div class="text-xl text-center text-gray-900 pt-2 font-bold ">Social Media</div>
-      <div class="socials mt-4 lg:mt-8">
+      <div class="socials mt-6 lg:mt-8">
         <i class="fa-brands fa-twitter px-6 text-3xl"></i>
         <i class="fa-brands fa-facebook pr-6 text-3xl "></i>
         <i class="fa-brands fa-instagram text-3xl "></i>
@@ -573,7 +572,7 @@
 <!-- footer -->
   <footer class="footer p-4 lg:px-1 lg:py-8 bg-neutral">
      
-    <nav class="container flex flex-col items-center lg:items-start lg:max-w-lg lg:ps-6">
+    <nav class="container flex flex-col items-center lg:items-start lg:max-w-lg lg:ps-8">
       <header class="font-bold text-white text-xl">Get In Touch</header>
       <p class="text-neutral-content text-center lg:text-start lg:w-96 py-3">Dit amet consectetur. Condimentum
         adipiscing aliquam turpis placerat dolor.
